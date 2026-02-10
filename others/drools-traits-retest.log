@@ -1,3 +1,87 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7ac8ebabc131327703628654a2b04a4a1639d2e044b5b525ef07208ebe2dcba7
-size 7576
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.drools:drools-traits >----------------------
+[INFO] Building Drools :: Traits 999-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ drools-traits ---
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (enforce-versions) @ drools-traits ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (no-duplicate-declared-dependencies) @ drools-traits ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (ban-blacklisted-dependencies) @ drools-traits ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (enforce-maven-version) @ drools-traits ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (enforce-java-version) @ drools-traits ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ drools-traits ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (no-managed-deps) @ drools-traits ---
+[INFO] Rule 0: org.commonjava.maven.enforcer.rule.EnforceManagedDepsRule(requireManagedDeps) passed
+[INFO] 
+[INFO] --- build-helper:3.4.0:add-source (default) @ drools-traits ---
+[INFO] Source directory: /home/dev/nrknithin/1-drools/drools-traits/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- build-helper:3.4.0:parse-version (default) @ drools-traits ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ drools-traits ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ drools-traits ---
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] skip non existing resourceDirectory /home/dev/nrknithin/1-drools/drools-traits/src/main/filtered-resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ drools-traits ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 115 source files with javac [debug release 17] to target/classes
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/main/java/org/drools/traits/core/factmodel/AbstractTraitFactory.java: Some input files use or override a deprecated API.
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/main/java/org/drools/traits/core/factmodel/AbstractTraitFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/main/java/org/drools/traits/core/factmodel/TraitRegistryImpl.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/main/java/org/drools/traits/core/factmodel/TraitRegistryImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ drools-traits ---
+[INFO] Copying 22 resources from src/test/resources to target/test-classes
+[INFO] Copying 2 resources from src/test/filtered-resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ drools-traits ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 53 source files with javac [debug release 17] to target/test-classes
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/compiler/factmodel/traits/TraitMapCoreTest.java:[317,27] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/compiler/factmodel/traits/TraitMapCoreTest.java:[376,27] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/compiler/factmodel/traits/TraitMapCoreTest.java:[923,25] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/core/factmodel/ClassBuilderTest.java:[106,44] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/core/factmodel/ClassBuilderTest.java:[219,37] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/core/factmodel/ClassBuilderTest.java:[257,39] Long(long) in java.lang.Long has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/core/factmodel/ClassBuilderTest.java:[258,39] Long(long) in java.lang.Long has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/core/factmodel/ClassBuilderTest.java:[259,40] Double(double) in java.lang.Double has been deprecated and marked for removal
+[WARNING] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/core/factmodel/ClassBuilderTest.java:[260,37] Integer(int) in java.lang.Integer has been deprecated and marked for removal
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/compiler/factmodel/traits/LogicalTraitTest.java: Some input files use or override a deprecated API.
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/compiler/factmodel/traits/LogicalTraitTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/compiler/factmodel/traits/Imp2.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/dev/nrknithin/1-drools/drools-traits/src/test/java/org/drools/traits/compiler/factmodel/traits/Imp2.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ drools-traits ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.drools.traits.persistence.PersistenceTest
+[INFO] Running org.drools.traits.core.util.HierarchyTest
+running H2 server
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.361 s -- in org.drools.traits.core.util.HierarchyTest
+[INFO] Running org.drools.traits.core.meta.org.MetadataTest
